@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
           script: |
-            cd ~/project/
+            cd ~/project/AttentionUnet_EF
             git pull origin main
             
             # Activate Virtual Environment (if using one)
